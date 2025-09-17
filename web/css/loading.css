@@ -1,0 +1,111 @@
+/* Flutter Web 应用加载页面样式 */
+
+/* 主加载容器 */
+#flutter-loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Logo 容器 */
+.loading-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Logo 脉冲动画 */
+@keyframes pulse {
+  0%, 100% { 
+    transform: scale(1); 
+  }
+  50% { 
+    transform: scale(1.05); 
+  }
+}
+
+/* Logo SVG 图标 */
+.loading-logo svg {
+  width: 50px;
+  height: 50px;
+  fill: #667eea;
+}
+
+/* 加载文本 */
+.loading-text {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* 进度文本 */
+.loading-progress {
+  color: rgba(255,255,255,0.9);
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  min-height: 20px;
+}
+
+/* 进度条容器 */
+.progress-bar {
+  width: 280px;
+  height: 4px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* 进度条填充 */
+.progress-fill {
+  height: 100%;
+  background: white;
+  border-radius: 2px;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+/* 加载旋转器 */
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-top: 3px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* 旋转动画 */
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+/* 淡出效果 */
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}

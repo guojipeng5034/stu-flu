@@ -1,0 +1,115 @@
+name: cptop           # 应用名称
+description: "A new Flutter project."  # 应用描述
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'                    # 如果您希望发布到pub.dev，请删除此行
+
+version: 1.0.0+1                      # 版本号（格式：主版本.次版本.修订版本+构建号）
+
+environment:                          # 环境配置
+  sdk: '>=3.0.0 <4.0.0'               # 所需的Dart SDK版本
+
+# 依赖项配置
+dependencies:                         # 应用依赖的第三方包
+  flutter:                            # Flutter框架
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2             # iOS风格图标
+  dio: ^5.0.0                         # 网络请求库
+  retrofit: ^4.4.2                    # Retrofit网络请求库
+  json_annotation: ^4.8.0             # JSON序列化支持
+  shared_preferences: ^2.0.0          # 本地存储
+  logger: ^2.5.0                      # 日志工具
+  event_bus: ^2.0.0                   # 事件总线
+  connectivity_plus: ^6.1.4           # 网络连接状态检测
+  fluttertoast: ^8.0.0                # 提示消息组件
+  flutter_riverpod: ^2.4.10
+  intl: ^0.20.2
+  ntp: ^2.0.0
+  timezone: ^0.10.1
+  flutter_dotenv: ^5.2.1              # 环境变量配置
+  badges: ^3.1.2                      # 角标组件
+  webview_flutter: ^4.7.0             # WebView组件
+  city_pickers: ^1.0.2                # 城市选择器
+  board_datetime_picker: ^2.2.0       # 日期时间选择器
+  jiffy: ^6.2.1                       # 日期处理库
+  package_info_plus: ^4.2.0           # 获取应用信息
+  url_launcher: ^6.3.1                # URL启动器
+  rxdart: ^0.27.7                     # 响应式编程库
+  go_router: ^13.2.1                  # 路由管理
+  permission_handler: ^10.2.0         # 权限处理
+  sentry_flutter: ^8.4.0              # 错误监控
+  flutter_screenutil: ^5.9.3          # 屏幕适配工具
+  flutter_datetime_picker_plus: ^2.2.0
+  dart_mappable: ^4.5.0
+  dio_cache_interceptor: ^4.0.3
+  freezed_annotation: ^2.4.1
+  flutter_svg: ^2.2.0
+  forui: 0.12.0
+  draggable_home: ^1.0.5
+  carousel_slider: ^5.1.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.4.1
+  image_picker: ^1.0.4                # 图片选择器
+
+
+
+# 开发环境依赖项
+dev_dependencies:                     # 仅在开发环境使用的依赖
+  flutter_test:                       # Flutter测试框架
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.15               # 代码生成运行器
+  retrofit_generator: ^9.2.0          # Retrofit代码生成器
+  json_serializable:  ^6.9.5          # JSON序列化代码生成
+  dart_mappable_builder : ^4.5.0
+  freezed: ^2.4.7                     # Freezed 代码生成器
+
+# Flutter相关配置
+flutter:
+  generate: true
+  # 以下行确保Material图标字体包含在应用中，以便使用material Icons类中的图标
+  uses-material-design: true          # 使用Material Design风格
+
+  # 添加资源文件配置
+  assets:
+    - assets/env/env.common
+    - assets/env/env.development
+    - assets/env/env.staging
+    - assets/env/env.production
+    - assets/master/
+    - assets/images/
+
+  # 添加资源文件配置示例
+  # assets:                          
+  #   - images/a_dot_burr.jpeg       # 图片资源
+  #   - images/a_dot_ham.jpeg
+
+  # 添加字体配置示例 
+  # fonts:
+  #   - family: Schyler              # 字体家族
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
+# 包引用路径配置
+# 这允许您使用 'package:flutter_application_2/...' 形式的导入，而不是相对路径
+# 例如: import 'package:cptop/core/utils/logger/app_logger.dart'
+# 而不是: import '../../../core/utils/logger/app_logger.dart'
+

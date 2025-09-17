@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "id": 4100,
+      "label": "more than 12 hour",
+      "name": "Cancel Lesson (by student, refund=100%)",
+      "description": "生徒都合：レッスン開始12時間以上前のキャンセル",
+      "refund_description": "ポイント返却率＝100%、チケット消費＝なし",
+      "refund": {
+        "points": 100,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "student",
+      "hide": 1
+    },
+    {
+      "id": 4101,
+      "label": "between 12-3 hour",
+      "name": "Cancel Lesson (by student, refund=50%)",
+      "description": "生徒都合：レッスン開始12〜3時間前までのキャンセル",
+      "refund_description": "ポイント返却率＝50%、チケット消費＝なし",
+      "refund": {
+        "points": 50,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "student",
+      "hide": 1
+    },
+    {
+      "id": 4102,
+      "label": "between 3-1 hour",
+      "name": "Cancel Lesson (by student, refund=20%)",
+      "description": "生徒都合：レッスン開始3〜1時間前までのキャンセル",
+      "refund_description": "ポイント返却率＝20%、チケット消費＝なし",
+      "refund": {
+        "points": 20,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "student",
+      "hide": 1
+    },
+    {
+      "id": 4103,
+      "label": "less than 1 hour",
+      "name": "Cancel Lesson (by student, refund=0%)",
+      "description": "生徒都合：レッスン開始1時間前以降のキャンセル",
+      "refund_description": "ポイント返却率＝0%、チケット消費＝あり",
+      "refund": {
+        "points": 0,
+        "ticket": 0,
+        "everyday": 0
+      },
+      "by": "student",
+      "hide": 1
+    },
+    {
+      "id": 4200,
+      "label": "teacher cancel",
+      "name": "Cancel Lesson (by teacher)",
+      "description": "講師都合によるキャンセル",
+      "refund_description": "ポイント返却率＝100%、チケット消費＝なし",
+      "refund": {
+        "points": 100,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "teacher",
+      "hide": 0
+    },
+    {
+      "id": 4300,
+      "label": "system cancel",
+      "name": "Cancel Lesson (by system)",
+      "description": "システム都合によるキャンセル",
+      "refund_description": "ポイント返却率＝100%、チケット消費＝なし",
+      "refund": {
+        "points": 100,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "system",
+      "hide": 0
+    },
+    {
+      "id": 4400,
+      "label": "no show student",
+      "name": "No Show (by student)",
+      "description": "生徒の無断欠席",
+      "refund_description": "ポイント返却率＝0%、チケット消費＝あり",
+      "refund": {
+        "points": 0,
+        "ticket": 0,
+        "everyday": 0
+      },
+      "by": "student",
+      "hide": 0
+    },
+    {
+      "id": 4500,
+      "label": "no show teacher",
+      "name": "No Show (by teacher)",
+      "description": "講師の無断欠席",
+      "refund_description": "ポイント返却率＝100%、チケット消費＝なし",
+      "refund": {
+        "points": 100,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "teacher",
+      "hide": 0
+    },
+    {
+      "id": 4600,
+      "label": "technical issue",
+      "name": "Technical Issue",
+      "description": "技術的な問題によるキャンセル",
+      "refund_description": "ポイント返却率＝100%、チケット消費＝なし",
+      "refund": {
+        "points": 100,
+        "ticket": 1,
+        "everyday": 1
+      },
+      "by": "system",
+      "hide": 0
+    }
+  ]
+}

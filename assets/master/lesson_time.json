@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": 30,
+      "label": "30",
+      "name": "25mins",
+      "abbr": "25",
+      "mins": "25",
+      "open_restriction": 0,
+      "unavailable_lesson_start": []
+    },
+    {
+      "id": 60,
+      "label": "60",
+      "name": "50mins",
+      "abbr": "50",
+      "mins": "50",
+      "open_restriction": 1,
+      "unavailable_lesson_start": [30]
+    },
+    {
+      "id": 90,
+      "label": "90",
+      "name": "75mins",
+      "abbr": "75",
+      "mins": "75",
+      "open_restriction": 0,
+      "unavailable_lesson_start": []
+    },
+    {
+      "id": 25,
+      "label": "25",
+      "name": "20mins",
+      "abbr": "20",
+      "mins": "20",
+      "open_restriction": 0,
+      "unavailable_lesson_start": []
+    },
+    {
+      "id": 20,
+      "label": "20",
+      "name": "15mins",
+      "abbr": "15",
+      "mins": "15",
+      "open_restriction": 0,
+      "unavailable_lesson_start": []
+    }
+  ]
+}

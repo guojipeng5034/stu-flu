@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_application_2">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>flutter_application_2</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- 加载页面样式 -->
+  <link rel="stylesheet" href="css/loading.css">
+</head>
+<body>
+  <!-- Flutter Loading 页面 -->
+  <div id="flutter-loading">
+    <div class="loading-logo">
+      <svg viewBox="0 0 24 24">
+        <path d="M14.6 16.6L19.2 12L14.6 7.4L16 6L22 12L16 18L14.6 16.6Z"/>
+        <path d="M8 12L13.2 6.8L14.6 8.2L10.8 12L14.6 15.8L13.2 17.2L8 12Z"/>
+      </svg>
+    </div>
+    
+    <div class="loading-text">Flutter 应用</div>
+    <div class="loading-progress" id="loading-progress">准备加载...</div>
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    
+    <div class="loading-spinner"></div>
+  </div>
+
+  <!-- 加载管理脚本 -->
+  <script src="js/loading.js"></script>
+
+  <script>
+    // 页面加载完成后初始化
+    document.addEventListener('DOMContentLoaded', function() {
+      // 初始化加载系统
+      if (typeof initializeLoading === 'function') {
+        initializeLoading();
+      } else {
+        console.error('Loading system not available');
+      }
+    });
+
+    {{flutter_bootstrap_js}}
+  </script>
+</body>
+</html>

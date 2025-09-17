@@ -1,0 +1,30 @@
+{
+  "data": [
+    {"id": 1, "name": "0pts", "points": 0, "per_min": "0"},
+    {"id": 5, "name": "5pts", "points": 5, "per_min": "0.2"},
+    {"id": 10, "name": "10pts", "points": 10, "per_min": "0.4"},
+    {"id": 15, "name": "15pts", "points": 15, "per_min": "0.6"},
+    {"id": 20, "name": "20pts", "points": 20, "per_min": "0.8"},
+    {"id": 25, "name": "25pts", "points": 25, "per_min": "1.0"},
+    {"id": 30, "name": "30pts", "points": 30, "per_min": "1.2"},
+    {"id": 35, "name": "35pts", "points": 35, "per_min": "1.4"},
+    {"id": 40, "name": "40pts", "points": 40, "per_min": "1.6"},
+    {"id": 45, "name": "45pts", "points": 45, "per_min": "1.8"},
+    {"id": 50, "name": "50pts", "points": 50, "per_min": "2.0"},
+    {"id": 55, "name": "55pts", "points": 55, "per_min": "2.2"},
+    {"id": 60, "name": "60pts", "points": 60, "per_min": "2.4"},
+    {"id": 65, "name": "65pts", "points": 65, "per_min": "2.6"},
+    {"id": 70, "name": "70pts", "points": 70, "per_min": "2.8"},
+    {"id": 75, "name": "75pts", "points": 75, "per_min": "3.0"},
+    {"id": 80, "name": "80pts", "points": 80, "per_min": "3.2"},
+    {"id": 85, "name": "85pts", "points": 85, "per_min": "3.4"},
+    {"id": 90, "name": "90pts", "points": 90, "per_min": "3.6"},
+    {"id": 95, "name": "95pts", "points": 95, "per_min": "3.8"},
+    {"id": 100, "name": "100pts", "points": 100, "per_min": "4.0"},
+    {"id": 110, "name": "110pts", "points": 110, "per_min": "4.4"},
+    {"id": 120, "name": "120pts", "points": 120, "per_min": "4.8"},
+    {"id": 130, "name": "130pts", "points": 130, "per_min": "5.2"},
+    {"id": 140, "name": "140pts", "points": 140, "per_min": "5.6"},
+    {"id": 150, "name": "150pts", "points": 150, "per_min": "6.0"}
+  ]
+}

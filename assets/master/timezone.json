@@ -1,0 +1,208 @@
+{
+  "TimeZone": [
+    {
+      "id": 1,
+      "label": "Pacific/Midway",
+      "offset": "-11:00",
+      "name": "Midway"
+    },
+    {
+      "id": 2,
+      "label": "Pacific/Honolulu",
+      "offset": "-10:00",
+      "name": "Hawaii"
+    },
+    {
+      "id": 3,
+      "label": "America/Anchorage",
+      "offset": "-09:00",
+      "name": "Alaska"
+    },
+    {
+      "id": 4,
+      "label": "America/Los_Angeles",
+      "offset": "-08:00",
+      "name": "Pacific Time (US & Canada)"
+    },
+    {
+      "id": 5,
+      "label": "America/Denver",
+      "offset": "-07:00",
+      "name": "Mountain Time (US & Canada)"
+    },
+    {
+      "id": 6,
+      "label": "America/Chicago",
+      "offset": "-06:00",
+      "name": "Central Time (US & Canada)"
+    },
+    {
+      "id": 7,
+      "label": "America/New_York",
+      "offset": "-05:00",
+      "name": "Eastern Time (US & Canada)"
+    },
+    {
+      "id": 8,
+      "label": "America/Caracas",
+      "offset": "-04:30",
+      "name": "Caracas"
+    },
+    {
+      "id": 9,
+      "label": "America/Santiago",
+      "offset": "-04:00",
+      "name": "Santiago"
+    },
+    {
+      "id": 10,
+      "label": "America/Sao_Paulo",
+      "offset": "-03:00",
+      "name": "Brasilia"
+    },
+    {
+      "id": 11,
+      "label": "America/St_Johns",
+      "offset": "-02:30",
+      "name": "Newfoundland"
+    },
+    {
+      "id": 12,
+      "label": "Atlantic/South_Georgia",
+      "offset": "-02:00",
+      "name": "Mid-Atlantic"
+    },
+    {
+      "id": 13,
+      "label": "Atlantic/Azores",
+      "offset": "-01:00",
+      "name": "Azores"
+    },
+    {
+      "id": 14,
+      "label": "Europe/London",
+      "offset": "+00:00",
+      "name": "London"
+    },
+    {
+      "id": 15,
+      "label": "Europe/Paris",
+      "offset": "+01:00",
+      "name": "Paris"
+    },
+    {
+      "id": 16,
+      "label": "Europe/Athens",
+      "offset": "+02:00",
+      "name": "Athens"
+    },
+    {
+      "id": 17,
+      "label": "Europe/Moscow",
+      "offset": "+03:00",
+      "name": "Moscow"
+    },
+    {
+      "id": 18,
+      "label": "Asia/Dubai",
+      "offset": "+04:00",
+      "name": "Dubai"
+    },
+    {
+      "id": 19,
+      "label": "Asia/Karachi",
+      "offset": "+05:00",
+      "name": "Karachi"
+    },
+    {
+      "id": 20,
+      "label": "Asia/Kolkata",
+      "offset": "+05:30",
+      "name": "New Delhi"
+    },
+    {
+      "id": 21,
+      "label": "Asia/Dhaka",
+      "offset": "+06:00",
+      "name": "Dhaka"
+    },
+    {
+      "id": 22,
+      "label": "Asia/Bangkok",
+      "offset": "+07:00",
+      "name": "Bangkok"
+    },
+    {
+      "id": 23,
+      "label": "Asia/Shanghai",
+      "offset": "+08:00",
+      "name": "Beijing"
+    },
+    {
+      "id": 24,
+      "label": "Asia/Tokyo",
+      "offset": "+09:00",
+      "name": "Tokyo"
+    },
+    {
+      "id": 25,
+      "label": "Australia/Sydney",
+      "offset": "+10:00",
+      "name": "Sydney"
+    },
+    {
+      "id": 26,
+      "label": "Pacific/Noumea",
+      "offset": "+11:00",
+      "name": "New Caledonia"
+    },
+    {
+      "id": 27,
+      "label": "Pacific/Auckland",
+      "offset": "+12:00",
+      "name": "Auckland"
+    },
+    {
+      "id": 28,
+      "label": "Asia/Manila",
+      "offset": "+08:00",
+      "name": "Manila"
+    },
+    {
+      "id": 29,
+      "label": "Asia/Taipei",
+      "offset": "+08:00",
+      "name": "Taipei"
+    },
+    {
+      "id": 30,
+      "label": "Asia/Seoul",
+      "offset": "+09:00",
+      "name": "Seoul"
+    },
+    {
+      "id": 31,
+      "label": "Asia/Ho_Chi_Minh",
+      "offset": "+07:00",
+      "name": "Ho Chi Minh City"
+    },
+    {
+      "id": 32,
+      "label": "Asia/Kuala_Lumpur",
+      "offset": "+08:00",
+      "name": "Kuala Lumpur"
+    },
+    {
+      "id": 33,
+      "label": "Asia/Singapore",
+      "offset": "+08:00",
+      "name": "Singapore"
+    },
+    {
+      "id": 34,
+      "label": "Asia/Jakarta",
+      "offset": "+07:00",
+      "name": "Jakarta"
+    }
+  ]
+}

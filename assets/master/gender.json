@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "label": "default",
+      "name": "--"
+    },
+    {
+      "id": 1,
+      "label": "male",
+      "name": "Male"
+    },
+    {
+      "id": 2,
+      "label": "female",
+      "name": "Female"
+    }
+  ]
+}

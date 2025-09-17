@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "label": "1star",
+      "name": "1 Star",
+      "description": "Very Poor",
+      "value": 1
+    },
+    {
+      "id": 2,
+      "label": "2star",
+      "name": "2 Stars",
+      "description": "Poor",
+      "value": 2
+    },
+    {
+      "id": 3,
+      "label": "3star",
+      "name": "3 Stars",
+      "description": "Average",
+      "value": 3
+    },
+    {
+      "id": 4,
+      "label": "4star",
+      "name": "4 Stars",
+      "description": "Good",
+      "value": 4
+    },
+    {
+      "id": 5,
+      "label": "5star",
+      "name": "5 Stars",
+      "description": "Excellent",
+      "value": 5
+    }
+  ]
+}

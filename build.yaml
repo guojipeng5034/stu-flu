@@ -1,0 +1,68 @@
+targets:
+  $default:
+    builders:
+      # ===== dart_mappable 配置 =====
+      # 主要用于数据模型的序列化/反序列化
+      dart_mappable_builder:
+        options:
+          # 字段命名风格：snake_case (与API保持一致)
+          caseStyle: snakeCase
+          # 忽略null值，减少生成代码体积
+          ignoreNull: true
+          # 保持标准方法名，避免与其他库冲突
+          # 注意：不重命名方法，保持 fromJson/toJson 标准命名
+          # 自动生成构造函数
+          constructorStyle: normal
+          # 字段名映射策略
+          fieldNameMapper:
+            type: snakeCase
+          # 生成 mixin 以支持 copyWith、== 等方法
+          generateMixin: true
+          # 生成 Mapper 类用于序列化
+          generateMethods: true
+
+      # ===== Freezed 配置 =====
+      # 用于生成不可变数据类
+      freezed:
+        options:
+          # 生成 copyWith 方法
+          copy_with: true
+          # 生成 == 和 hashCode
+          equal: true
+          # 生成 toString 方法
+          to_string: true
+          # 生成 fromJson/toJson 方法
+          from_json: true
+          to_json: true
+
+      # ===== JSON 序列化配置 =====
+      # 与 freezed 配合使用
+      json_serializable:
+        options:
+          # 字段重命名策略：snake_case
+          field_rename: snake
+          # 生成显式的 toJson 方法
+          explicit_to_json: true
+          # 不包含 null 值字段
+          include_if_null: false
+          # 生成 toJson 方法
+          create_to_json: true
+          # 生成 factory 构造函数
+          create_factory: true
+          # 启用类型检查
+          checked: true
+          # 生成泛型帮助方法
+          generic_argument_factories: true
+
+      # ===== Retrofit 配置 =====
+      # API 客户端代码生成
+      retrofit_generator:retrofit_generator:
+        options:
+          # 方法级别的 HTTP 日志配置
+          use_method_http_logger: true
+          # 自动添加 HTTP 日志
+          auto_add_http_logger: true
+          # 包含类型转换器
+          with_converter: true
+          # 生成可空返回类型
+          nullable_return_type: true

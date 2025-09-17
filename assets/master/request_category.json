@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "mapping_index": 0,
+      "name": "Please speak slowly, clearly and politely."
+    },
+    {
+      "id": 2,
+      "mapping_index": 1,
+      "name": "Please speak in natural speed like the usual English conversation."
+    },
+    {
+      "id": 3,
+      "mapping_index": 2,
+      "name": "Please discipline or teach me strictly."
+    },
+    {
+      "id": 4,
+      "mapping_index": 3,
+      "name": "Please allow me to have a free conversation during the class discussion as the situation demands."
+    },
+    {
+      "id": 5,
+      "mapping_index": 4,
+      "name": "Please strictly stick to the topic of the chosen curriculum. Avoid free conversation during the class discussion."
+    }
+  ]
+}

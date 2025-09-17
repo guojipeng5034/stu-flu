@@ -1,0 +1,558 @@
+{
+  "@@locale": "en",
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "A simple greeting"
+  },
+  "welcomeMessage": "Welcome to our app!",
+  "@welcomeMessage": {
+    "description": "Welcome message for users"
+  },
+  "demoPageTitle": "Localization Demo",
+  "@demoPageTitle": {
+    "description": "Title for the localization demo page"
+  },
+  "demoSectionTitle": "Localization Examples",
+  "@demoSectionTitle": {
+    "description": "Title for the localization examples section"
+  },
+  "basicUsageTitle": "Basic Usage",
+  "@basicUsageTitle": {
+    "description": "Title for basic usage section"
+  },
+  "languageSwitchTitle": "Switch Language",
+  "@languageSwitchTitle": {
+    "description": "Title for language switch section"
+  },
+  "serverTranslationTitle": "Server Translation Status",
+  "@serverTranslationTitle": {
+    "description": "Title for server translation status section"
+  },
+  "currentLanguage": "Current Language",
+  "@currentLanguage": {
+    "description": "Label for current language"
+  },
+  "refreshTranslations": "Refresh Translations",
+  "@refreshTranslations": {
+    "description": "Button text for refreshing translations"
+  },
+  "refreshCompleted": "Translations refreshed",
+  "@refreshCompleted": {
+    "description": "Message shown when translations are refreshed"
+  },
+  "translationError": "Translation Error",
+  "@translationError": {
+    "description": "Error message for translation errors"
+  },
+  "serverTranslationsLoaded": "Server translations loaded",
+  "@serverTranslationsLoaded": {
+    "description": "Message shown when server translations are loaded"
+  },
+  "noServerTranslations": "No server translations available",
+  "@noServerTranslations": {
+    "description": "Message shown when no server translations are available"
+  },
+  "translationNotInitialized": "Translations not initialized",
+  "@translationNotInitialized": {
+    "description": "Message shown when translations are not initialized"
+  },
+  "userProfileTitle": "User Profile",
+  "@userProfileTitle": {
+    "description": "Title for user profile page"
+  },
+  "nameLabel": "Name",
+  "@nameLabel": {
+    "description": "Label for name field"
+  },
+  "emailLabel": "Email",
+  "@emailLabel": {
+    "description": "Label for email field"
+  },
+  "roleLabel": "Role",
+  "@roleLabel": {
+    "description": "Label for role field"
+  },
+  "updateProfile": "Update Profile",
+  "@updateProfile": {
+    "description": "Button text for updating profile"
+  },
+  "profileUpdated": "Profile updated successfully",
+  "@profileUpdated": {
+    "description": "Message shown when profile is updated"
+  },
+  "welcomeUserTemplate": "Welcome, {userName}!",
+  "@welcomeUserTemplate": {
+    "description": "Welcome message with user name placeholder",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "error_404": "Resource not found",
+  "@error_404": {
+    "description": "Error message for 404 error"
+  },
+  "error_500": "Server error, please try again later",
+  "@error_500": {
+    "description": "Error message for 500 error"
+  },
+  "appTitle": "My App",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "switchLanguage": "Switch Language",
+  "@switchLanguage": {
+    "description": "Button text for switching language"
+  },
+
+  "masterGenderMale": "Male",
+  "@masterGenderMale": {
+    "description": "Male gender option"
+  },
+  "masterGenderFemale": "Female",
+  "@masterGenderFemale": {
+    "description": "Female gender option"
+  },
+  "masterGenderUnspecified": "Unspecified",
+  "@masterGenderUnspecified": {
+    "description": "Unspecified gender option"
+  },
+
+  "masterRatingExcellent": "Excellent",
+  "@masterRatingExcellent": {
+    "description": "Excellent rating level"
+  },
+  "masterRatingGood": "Good",
+  "@masterRatingGood": {
+    "description": "Good rating level"
+  },
+  "masterRatingAverage": "Average",
+  "@masterRatingAverage": {
+    "description": "Average rating level"
+  },
+  "masterRatingPoor": "Poor",
+  "@masterRatingPoor": {
+    "description": "Poor rating level"
+  },
+  "masterRatingVeryPoor": "Very Poor",
+  "@masterRatingVeryPoor": {
+    "description": "Very poor rating level"
+  },
+  "masterRatingNoRating": "No Rating",
+  "@masterRatingNoRating": {
+    "description": "No rating available"
+  },
+
+  "masterRequestSlowClear": "Slow & Clear",
+  "@masterRequestSlowClear": {
+    "description": "Slow and clear teaching request"
+  },
+  "masterRequestNaturalSpeed": "Natural Speed",
+  "@masterRequestNaturalSpeed": {
+    "description": "Natural speed teaching request"
+  },
+  "masterRequestStrictTeaching": "Strict Teaching",
+  "@masterRequestStrictTeaching": {
+    "description": "Strict teaching request"
+  },
+  "masterRequestFreeConversation": "Free Conversation",
+  "@masterRequestFreeConversation": {
+    "description": "Free conversation request"
+  },
+  "masterRequestStrictCurriculum": "Strict Curriculum",
+  "@masterRequestStrictCurriculum": {
+    "description": "Strict curriculum request"
+  },
+
+  "masterCancelByStudent": "Student Cancellation",
+  "@masterCancelByStudent": {
+    "description": "Cancellation by student"
+  },
+  "masterCancelByTeacher": "Teacher Cancellation",
+  "@masterCancelByTeacher": {
+    "description": "Cancellation by teacher"
+  },
+  "masterCancelBySystem": "System Cancellation",
+  "@masterCancelBySystem": {
+    "description": "Cancellation by system"
+  },
+  "masterRefundFull": "Full Refund",
+  "@masterRefundFull": {
+    "description": "Full refund description"
+  },
+  "masterRefundPartial": "Partial Refund",
+  "@masterRefundPartial": {
+    "description": "Partial refund description"
+  },
+  "masterRefundNone": "No Refund",
+  "@masterRefundNone": {
+    "description": "No refund description"
+  },
+  "masterRefundPercentage": "{percentage}% Refund",
+  "@masterRefundPercentage": {
+    "description": "Percentage refund description",
+    "placeholders": {
+      "percentage": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+
+  "masterPointsFree": "Free Course",
+  "@masterPointsFree": {
+    "description": "Free course description"
+  },
+  "masterPointsEconomical": "Economical",
+  "@masterPointsEconomical": {
+    "description": "Low points course description"
+  },
+  "masterPointsStandard": "Standard Price",
+  "@masterPointsStandard": {
+    "description": "Medium points course description"
+  },
+  "masterPointsPremium": "Premium Course",
+  "@masterPointsPremium": {
+    "description": "High points course description"
+  },
+
+  "masterLessonShort": "Short Lesson",
+  "@masterLessonShort": {
+    "description": "Short lesson type"
+  },
+  "masterLessonStandard": "Standard Lesson",
+  "@masterLessonStandard": {
+    "description": "Standard lesson type"
+  },
+  "masterLessonLong": "Long Lesson",
+  "@masterLessonLong": {
+    "description": "Long lesson type"
+  },
+  "masterLessonExtraLong": "Extra Long Lesson",
+  "@masterLessonExtraLong": {
+    "description": "Extra long lesson type"
+  },
+
+  "help": "Help",
+  "@help": {
+    "description": "Help button text"
+  },
+  "verificationCode": "Code",
+  "@verificationCode": {
+    "description": "Verification code field label"
+  },
+  "getVerificationCode" : "Get a Code",
+  "@getVerificationCode": {
+    "description": "Get verification code button text"
+  },
+  "verificationCodeInvalid": "Verification Code Invalid",
+  "@verificationCodeInvalid": {
+    "description": "Invalid verification code error message"
+  },
+  "verificationCodeExpired": "Verification Code Expired",
+  "@verificationCodeExpired": {
+    "description": "Expired verification code error message"
+  },
+  "verificationCodeRequired": "Please enter the code",
+  "@verificationCodeRequired": {
+    "description": "Required verification code message"
+  },
+  "verificationCodeResend": "Resend verification code",
+  "@verificationCodeResend": {
+    "description": "Resend verification code button text"
+  },
+  "verificationCodeResendSuccess": "Verification code sent successfully",
+  "@verificationCodeResendSuccess": {
+    "description": "Success message for verification code resend, check your phone"
+  },
+  "verificationCodeResendFailed": "Verification code send failed",
+  "@verificationCodeResendFailed": {
+    "description": "Failed message for verification code resend"
+  },
+  "verificationCodeResendLimitExceeded": "Verification code send limit exceeded",
+  "@verificationCodeResendLimitExceeded": {
+    "description": "Limit exceeded message for verification code resend"
+  },
+  "verificationCodeResendCooldown": "Please try again later",
+  "@verificationCodeResendCooldown": {
+    "description": "Cooldown message for verification code resend"
+  },
+  "verificationCodeResendCooldownMessage": "Please try again in {seconds} seconds.",
+  "@verificationCodeResendCooldownMessage": {
+    "description": "Cooldown message with seconds placeholder",
+    "placeholders": {
+      "seconds": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "verificationCodeResendCooldownMessage2": "Please try again in {minutes} minutes.",
+  "@verificationCodeResendCooldownMessage2": {
+    "description": "Cooldown message with minutes placeholder",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+  "passwordConfirm": "Confirm Password",
+  "@passwordConfirm": {
+    "description": "Confirm password field label"
+  },
+  "passwordInvalid": "Password is invalid",
+  "@passwordInvalid": {
+    "description": "Invalid password error message"
+  },
+  "passwordRequired": "Please enter password",
+  "@passwordRequired": {
+    "description": "Required password message"
+  },
+
+  "login": "Login",
+  "@login": {
+    "description": "Login button text"
+  },
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout button text"
+  },
+  "register": "Sign Up",
+  "@register": {
+    "description": "Register button text"
+  },
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Forgot password link text"
+  },
+
+  "cancel" : "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+  "confirm" : "Confirm",
+  "@confirm": {
+    "description": "Confirm button text"
+  },
+  "agreeAndLogin" : "Agree and Login", 
+
+
+  "verificationCodeLogin": "By SMS Code",
+  "@verificationCodeLogin": {
+    "description": "Verification code login tab text"
+  },
+  "passwordLogin": "By Password",
+  "@passwordLogin": {
+    "description": "Password login tab text"
+  },
+  "unregisteredPhoneWillBeRegisteredAndLoggedInBackup": "Unregistered phone numbers will be automatically registered and logged in.",
+  "@unregisteredPhoneWillBeRegisteredAndLoggedInBackup": {
+    "description": "Message for unregistered phone registration"
+  },
+  "iHaveReadAndAgree": "I agree to the  ",
+  "@iHaveReadAndAgree": {
+    "description": "Agreement checkbox text"
+  },
+  "userAgreement": "User Agreement",
+  "@userAgreement": {
+    "description": "《User Agreement》"
+  },
+  "and": " and ",
+  "@and": {
+    "description": "and"
+  },
+  "privacyPolicy": "Privacy Policy",
+  "@privacyPolicy": {
+    "description": "Privacy policy"
+  },
+  "pleaseEnterPhoneNumber": "Please enter your phone number",
+  "@pleaseEnterYourPhoneNumber": {
+    "description": "Phone number input hint text"
+  },
+  "pleaseEnterValidPhoneNumber" : "Please enter a valid phone number",
+  "@pleaseEnterValidPhoneNumber": {
+    "description": "Phone number input hint text"
+  },
+  "pleaseEnterEmailPhoneAccount": "Please enter email/phone/account",
+  "@pleaseEnterEmailPhoneAccount": {
+    "description": "Email/phone/account input hint text"
+  },
+
+  "select" : "Select",
+  "@select": {
+    "description": "Select text"
+  },
+  "country" : "Country",
+  "@country": {
+    "description": "Country text"
+  },
+  "or" : "Or",
+  "@or": {
+    "description": "Or text"
+  },
+  "district" : "District",
+  "@district": {
+    "description": "District text"
+  },
+
+
+  "phoneVerification" : "Phone Verification",
+  "@phoneVerification": {
+    "description": "Phone verification text"
+  },
+
+  "emailVerification" : "Email Verification",
+  "@emailVerification": {
+    "description": "Email verification text"
+  },
+
+  "phoneNumber" : "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number text"
+  },
+  "email" : "Mail",
+  "@email": {
+    "description": "Email text"
+  },
+  "newPassword" : "New Password",
+  "@newPassword": {
+    "description": "New password text"
+  },
+  "confirmNewPassword" : "Confirm Password",
+  "@confirmNewPassword": {
+    "description": "Confirm new password text"
+  },
+  "completeAndLogin" : "Complete and Login",
+  "@completeAndLogin": {
+    "description": "Complete and login text"
+  },
+
+  "bindPhone": "Bind Phone",
+  "@bindPhone": {
+    "description": "Bind phone text"
+  },
+
+  "bindAccount" : "Bind Account",
+  "@bindAccount": {
+    "description": "Bind account text"
+  },
+
+  "bindAndLogin": "Bind and Log in",
+  "@bindAndLogin": {
+    "description": "Bind and login text"
+  },
+  "registeredEmailOrAccount": "Registered Email/Account",
+  "@registeredEmailOrAccount": {
+    "description": "Registered email/account text"
+  },
+
+  "loginSignUp": "Login / Sign Up",
+  "quickLoginWithLocalNumber": "Quick login with local number",
+  "useAnotherNumberAccount": "Use another number / account",
+  "unregisteredPhoneWillBeRegisteredAndLoggedIn": "Unregistered phone numbers will be automatically registered and logged in.",
+  "bySMSCode": "By SMS Code",
+  "byPassword": "By Password",
+  "getACode": "Get a code",
+  "otherLoginMethods": "Other login methods",
+  "iAgreeToUserAgreementAndPrivacyPolicy": "I agree to the User Agreement and Privacy Policy.",
+  "emailPhoneNumberUsername": "Email / Phone number / Username",
+  "signUpWithEmail": "Sign up with email.",
+  "logIn": "Log In",
+  "passwordsMustBe8To20Characters": "Passwords must be 8-20 characters long and contain at least one number, one letter, and one special character.",
+  "agreeAndLogIn": "Agree and log in",
+  "completeAndLogIn": "Complete and log in",
+  "bindAndLogIn": "Bind and log in",
+  "smsVerification": "SMS Verification",
+  "emailVerification": "Email Verification",
+  "emailAddress": "Email address",
+  "bindPhoneNumber": "Bind Phone Number",
+  "signUp": "Sign Up",
+  "signUpAndLogIn": "Sign Up and Log In",
+  "selectAnAccountToEnter": "Select an account to enter",
+  "isLinkedToMultipleAccounts": "{userAccount} is linked to multiple accounts. You may access any of the following accounts:",
+  "selectAnAccountToResetPassword": "Select an account to reset password",
+  "isAssociatedWithMultipleAccountsResetPassword": "{userAccount} is associated with multiple accounts. Select one to reset its password. After resetting, log in using the new password.",
+  "selectAnAccountToLinkWithWeChat": "Select an account to link with WeChat",
+  "isLinkedToMultipleAccountsWeChat": "{userAccount} is linked to multiple accounts. Select one to connect to WeChat. Once linked, you may log in using WeChat.",
+  "enter": "Enter",
+  "recentlyUsed": "Recently used",
+  "selectYourCountryOrRegion": "Select Your Country or Region",
+  "reminder": "Reminder",
+  "pleaseReadAndAgreeToUserAgreementAndPrivacyPolicyFirst": "Please read and agree to the <User Agreement> and <Privacy Policy> first.",
+  "welcomeToCampusTopPrivacyPolicy": "Welcome to CampusTop! We recognize the importance of your personal information and value your trust. To protect your rights and comply with applicable regulations, our Privacy Policy explains how we collect, store, secure, use, and disclose your data, along with your legal rights. For complete details, please review the full CampusTop Privacy Policy.",
+  "agreeAndContinue": "Agree and Continue",
+  "disagree": "Disagree",
+  "completeYourInformation": "Complete Your Information",
+  "male": "Male",
+  "female": "Female",
+  "dateOfBirth": "Date of birth",
+  "fullName": "Full name",
+  "englishNickname": "English nickname",
+  "recommendedEnglishName": "Recommended English name",
+  "refresh": "Refresh",
+  "selectBirthday": "Select Birthday",
+  "selectLanguage": "Select Language",
+  "uploadFromAlbum": "Upload from Album",
+  "takePhoto": "Take Photo",
+  "scanQRCode": "Scan QR Code",
+  "pleaseAlignQRCodeWithinCenter": "Please align the QR code within the center of the frame.",
+  "scanToLogIn": "Scan to Log In",
+  "pleaseConfirmItsYouAndEnsureQRCodeSourceIsSafe": "Please confirm it's you and ensure the QR code source is safe.",
+  "accountIsLoggedInOnAnotherDevice": "Account is logged in on another device",
+  "confirmLogin": "Confirm Login",
+  "cancelLogin": "Cancel Login",
+  "followingContentNotProvidedByCampusTop": "The following content is not provided by CampusTop, please use with caution.",
+  "openInBrowser": "Open in browser",
+  "campusTopWebVersion": "CampusTop Web Version",
+  "twoPasswordEntriesDoNotMatch": "The two password entries do not match.",
+  "resetPassword": "Reset Password",
+  "pleaseEnterYourPhoneNumber": "Please enter your phone number.",
+  "pleaseEnterValidPhoneNumber": "Please enter a valid phone number.",
+  "phoneNumberNotRegisteredPleaseReEnter": "Phone number not registered, please re-enter.",
+  "pleaseEnterYourEmailAddress": "Please enter your email address.",
+  "pleaseEnterValidEmailAddress": "Please enter a valid email address.",
+  "emailNotRegisteredPleaseReEnter": "Email not registered. Please re-enter.",
+  "thisEmailHasAlreadyBeenRegistered": "This email has already been registered. Please log in directly.",
+  "tooManyAttemptsPleaseRetryIn5Minutes": "Too many attempts. Please try again in 5 minutes.",
+  "smsCodeRequestLimitReached": "SMS code request limit reached. Please try again tomorrow.",
+  "phoneNumberDoesNotMatchSelectedRegion": "The phone number does not match the selected region.",
+  "incorrectVerificationCodePleaseRetry": "Incorrect verification code. Please try again.",
+  "phoneNumberAlreadyLinkedToAnotherWeChat": "This phone number is already linked to another WeChat account. Please contact customer service.",
+  "accountNotRegisteredPleaseReEnter": "Account not registered. Please re-enter.",
+  "incorrectPasswordPleaseRetry": "Incorrect password. Please try again.",
+  "tooManyIncorrectAttemptsPleaseRetryIn5Minutes": "Too many incorrect attempts. Please try again in 5 minutes.",
+  "passwordsDoNotMatchPleaseReEnter": "Passwords do not match. Please re-enter.",
+  "passwordMustIncludeLettersNumbersSpecialCharacters": "Password must include letters, numbers, and special characters, and be 8–20 characters long",
+  "qrCodeHasExpiredPleaseScanAgain": "QR code has expired. Please scan again.",
+  "serverErrorPleaseRetryLater": "Server error. Please try again later.",
+  "pleaseCheckInternetConnectionOrRetryLater": "Please check your internet connection or try again later.",
+  "verificationCodeHasBeenSentPleaseCheckSMS": "Verification code has been sent. Please check your SMS.",
+  "verificationCodeHasBeenSentPleaseCheckEmail": "Verification code has been sent. Please check your email.",
+  "getFreeTrialClassWithForeignTeacher": "Get a free trial class with a foreign teacher",
+  "alreadyClaimed": "Already claimed",
+  "successfullyClaimed": "Successfully claimed",
+  "gotIt": "Got it",
+  "congratulationsYouveSuccessfullyClaimedYourFreeTrialClass": "Congratulations! You've successfully claimed your free trial class. Your dedicated class advisor will contact you by phone shortly—please make sure to answer the call.",
+  "registeredEmailAccount": "Registered email/ account",
+  "pleaseEnterYourName": "Please enter your name",
+  "pleaseEnterYourEnglishName": "Please enter your English name",
+  "pleaseSelectYourBirthday": "Please select your birthday",
+  "pleaseSelectYourGender": "Please select your gender",
+  "weChatID": "WeChat ID",
+  "unlinked": "Unlinked",
+  "confirmUnlinking": "Confirm unlinking",
+  "afterUnbindingWeChatAccountYouWillNoLongerBeAbleToUseWeChat": "After unbinding your WeChat account, you will no longer be able to use WeChat to log in to this CampusTop account.",
+  "unlink": "Unlink",
+  "successfullyUnlinked": "Successfully unlinked",
+  "accountCanceled": "Account canceled",
+  "yourAccountHasBeenCanceledPleaseContactCustomerService": "Your account has been canceled. Please contact customer service.",
+  "operationTimedOutPleaseLogOutAndLogInAgain": "Operation timed out. Please log out and log in again."
+}
